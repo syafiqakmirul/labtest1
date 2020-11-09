@@ -1,0 +1,6 @@
+    string = "I have Python exam"
+
+    def sol1():
+        return len(string.split(' '))
+
+    print(sol1())
