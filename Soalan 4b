@@ -1,0 +1,11 @@
+num = input ("Enter number")
+value = int (num)
+
+def multiplybythree(h):
+return h * 3
+
+h = multiplybythree(10)*value
+print(h)
+
+def multiplyoutput(function):
+print(h * value)
