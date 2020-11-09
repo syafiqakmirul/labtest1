@@ -1,0 +1,14 @@
+def DecToBinary(num): 
+      
+    if num > 1: 
+        DecToBinary(num // 2) 
+    print(num % 2, end = '') 
+  
+# Driver Code 
+if __name__ == '__main__': 
+      
+    # decimal value 
+    DecVal = 24
+      
+    # Calling function 
+    DecToBinary(DecVal)
